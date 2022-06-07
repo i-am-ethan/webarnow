@@ -1,0 +1,24 @@
+header{
+    background: #FFFFFF;
+    .header-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        padding: 18px 80px;
+        max-width: 100%;
+        .header-nav-wrapper{
+            float: right;
+            nav{
+                ul{
+                    display: flex;
+                    justify-content: flex-start;
+                    li{
+                        list-style: none;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* ========================================================================
+* 変数
+======================================================================== */
+// 源ノ明朝
+// $font-Han-Serif:source-han-serif-japanese, serif;
+//     font-weight: 400;
+//     font-style: normal;
+
+// $font-Han-Sans: source-han-sans-japanese, sans-serif;
+//     font-weight: 200;   
+//     font-style: normal;
+
+// 背景色
+$gray-background:#151515;
+$red-background: #460000;
+$light-red-background:#6F0000;
+$twitter-background:#3D9BF0;
+$dark-red-background:#5A0000;
+$more-darker-red-background:#3E0000;
+$red_02-background: #480000;
+$black-red-background: #1F0000;
+
+// テキスト
+// $white-text:#FFFFFF;
+// $orange-text: #DB4813;
+// $gray-text: #707070;
+// $gray02-text: #AAAAAA;
+
+//カーソル
+// $orenge-caret: #DB4813;
+
+/* ========================================================================
+* reset
+======================================================================== */
+@import "./reset/reset.scss";
+/* ========================================================================
+* common
+======================================================================== */
+@import "./header/header.scss";
+// @import "_header.scss";
+// @import "_footer.scss";
+
+// @import './top';
+// @import './nazo_top';
+// @import './success';
+// @import './maru';
+// @import './maru02';
+// @import './maru03';
+// @import './batsu';
+// @import './batsu02';
+// @import './batsu03';
+// @import './failed';
+// @import './hint';
+// @import './nazo01';
+// @import './nazo02';
+// @import './nazo03';
+// @import './_modal';
+
+// タッチした時の拡大を防ぐ
+html{
+    touch-action: manipulation;
+}
